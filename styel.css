@@ -1,0 +1,82 @@
+body{
+    background: black;
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto;
+    height:100vh;
+    width: 100%;
+     box-sizing:border-box; 
+   background-color: black;
+    box-shadow: inset -5px -5px 10px #0d0d0d, 
+    inset 5px 5px 10px #333; 
+}
+  .navbar{
+      height: 60px; 
+     width: 885px; 
+      background-color: black;
+      border-radius: -122%;
+      box-shadow: inset 5px 5px 10px #0d0d0d, 
+      inset -5px -5px 10px #333; 
+    font-size: 15px;
+    margin-left: 140px;
+    margin-top: -434px;
+  }
+  
+ul{
+    list-style: none;
+}
+ul li{
+position: relative;
+float: left;
+margin: 2px;
+height: 40px;
+width: 150px;
+color: #fff;
+line-height: 40px;
+text-align: center;
+font-size: 15px;
+text-transform: uppercase;
+font-family: arial;
+cursor: pointer;
+border-radius: 50px;
+transition: 2px;
+}
+.container ul li:hover{
+background: #ff3300;
+box-shadow: inset 5px 5px 10px #ff704d, 
+inset -5px -5px 10px #b32400; 
+}
+.card{
+  height: 6px;
+  width: 0px;
+}
+.card{
+  color: #fff;
+height: 220px;
+width: 347px;
+margin-top: -440px;
+margin-left: 72px;
+}
+img{
+height: 280px;
+margin-left: 616px;
+margin-top: -230px;
+}
+.submit-btn{
+margin-left: -974px;
+width: 134px;
+height: 41px;
+border-radius: 25px;
+color: white;
+background: #fda600;
+BORDER: BLACK;
+transition: 2s;
+}
+.submit-btn:hover{
+  background-color: rgb(78, 165, 216);
+  
+}
